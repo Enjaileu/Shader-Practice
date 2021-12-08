@@ -63,7 +63,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _End: 0.6
-    - _Feather: 0.01
+    - _Feather: 0.04
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -71,13 +71,13 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Radius: 0.397
+    - _Radius: 0.408
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Start: 10.48
     - _UVSec: 0
-    - _Width: 0.033
+    - _Width: 0.072
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.8773585, g: 0.60336393, b: 0.086908154, a: 1}

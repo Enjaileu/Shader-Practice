@@ -1,4 +1,4 @@
-Shader "Line Shader"
+Shader "Cross Shader"
 {
     Properties
     {
@@ -54,7 +54,7 @@ Shader "Line Shader"
 
             float drawLine(float2 uv, float start, float end)
             {
-                if(uv.x > start && uv.x < end)
+                if((uv.x > start && uv.x < end) || (uv.y > start && uv.y < end))
                 {
                     return 1;
                 }
@@ -65,7 +65,7 @@ Shader "Line Shader"
             half4 frag(VertexOutput i):COLOR 
             {
                 float4 color = tex2D(_MainTex, i.texcoord)*_Color; // color contient la texture
-                color.a = drawLine(i.texcoord.x, _Start, _Start+_Width);
+                color.a = drawLine(i.texcoord.xy, _Start, _Start+_Width);
                 return color;
                 
             }
