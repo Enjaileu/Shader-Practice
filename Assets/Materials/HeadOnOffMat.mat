@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeadMat
-  m_Shader: {fileID: 4800000, guid: 5644de4c62c1d51498b301b2e7cc52cb, type: 3}
-  m_ShaderKeywords: _USENORMAL_OFF
+  m_Name: HeadOnOffMat
+  m_Shader: {fileID: 4800000, guid: 02fd5e2ef95b6104584f360f05eae6eb, type: 3}
+  m_ShaderKeywords: _USENORMAL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -29,7 +29,7 @@ Material:
         m_Offset: {x: 1, y: 0}
     m_Ints: []
     m_Floats:
-    - _UseNormal: 0
+    - _UseNormal: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
