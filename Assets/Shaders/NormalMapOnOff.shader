@@ -79,6 +79,7 @@ Shader "Normal map ON/OFF Shader"
                 return o;
             }
 
+
             float3 normalFromColor(float4 color){
                 #if defined(UNITY_NO_DXT5nm)
                 return color.xyz;
